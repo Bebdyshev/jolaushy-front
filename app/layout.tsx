@@ -6,8 +6,11 @@ import { ThemeProvider } from '@/providers/ThemeProvider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Wanderlust AI - Your Personal Travel Planner',
+  title: 'Marco - Your Personal Travel Planner',
   description: 'Plan your perfect trip with our AI-powered travel assistant',
+  icons: {
+    icon: '🧳',
+  },
 };
 
 export default function RootLayout({
